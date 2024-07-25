@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    max-width: 85%;
+    width: 2800px;
+    margin: 0 auto;
+}
+a{
+    color: inherit;
+}
+.header{
+    background-color: #0F0F0F;
+    padding: 10px 350px;
+}
+.header-cards{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px;
+
+}
+.header-logo{
+ 
+}
+.header-cards2{
+    display: flex;
+    gap: 100px;
+}
+.header-cards-dec{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    gap: 70px;
+}
+.header-card-dec{
+}
+.header-card-icons{
+    display: flex;
+    font-size: 25px;
+    gap: 50px;
+    cursor: pointer;
+}
+.hero-cards{
+   
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    width: 1632 px;
+    height: 700px;
+    background: url(../imgs/heroimg.png);
+    background-size: 100% 100%;
+    object-fit: cover;
+   
+}
+.hero-card{
+    text-align: center;
+    align-items: center;
+    color: white;
+     padding: 100px 0px;
+}
+.hero-card-info{
+    padding: 10px 0px;
+    border-top: 3px solid rgb(245, 243, 243);
+    text-transform: uppercase;
+}
+.hero-card-desc{
+    color: white;
+    text-align: center;
+    width: 600px;
+    text-transform: uppercase;
+    
+}
+.season-cards{
+    display: flex;
+    background-color: black;
+}
+.season-card{
+}
+.season-card-title{
+    width: 700px;
+    text-align: center;
+    padding: 70px 0px;
+    font-size: 36px;
+    color: white;
+
+}
+.season-cards-watches{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 830px;
+    cursor: pointer;
+}
+.season-cards-watch-img{
+    /* border: 4px solid green; */
+    background-color:#191B1C ;
+    padding: 20 px;
+}
+.season-cards-watch{
+    text-align: center;
+    width:  230px;
+    height: 300px;
+    border: 1px solid rgb(18, 9, 9);
+    margin: 0px 20px;
+}
+.season-cards-watch-desc{
+    padding-top: 20px;
+    color: white;
+
+}
+.season-card-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    background-color: rgb(24, 20, 20);
+    width: 900px;
+    background-image: url(../imgs/catalogimg.png);
+    background-size: 100% 100%;
+    object-fit: cover;
+    color: white;
+
+}
+.season-cards-watch-desc1{ 
+    padding-bottom: 20px;
+    border-bottom: 3px solid white;   
+    font-size: 36px;
+
+}
+.season-cards-watch-desc2{
+     width: 192px;
+     font-size: 20px;
+     text-transform: uppercase;
+     height: 40px;  
+     text-align: center;
+     padding: 5px 0px ;
+     border: 2px solid rgb(247, 242, 242);
+     cursor: pointer;
+}
+.collection-cards{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+
+}
+.collection-card{
+ 
+}
+.collection-card-img img{
+    width: 830px;
+    
+}
+.collection-card-infos{
+ display: inline-block;
+ color: white;
+ 
+
+}
+.collection-card-info1{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    border-bottom: 3px solid white;
+
+}
+.collection-card-info2{
+    padding: 60px;
+    width: 700px;
+    text-align: center;
+    margin-left: 80px;
+}
+.collection-card-info3{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(254, 253, 253);
+    width: 250px;
+    margin-left: 300px;
+    font-size: 20px;
+    padding: 5  px;
+    cursor: pointer;
+}
+.new{
+    background-color: #000000;
+    color: white;
+}
+.new-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #000000;
+    color: white;
+    padding: 40px 300px;
+    cursor: pointer;
+    /* padding: 20px 0px; */
+}
+.new-card-title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 0px;
+    padding-top: 140px;
+    border-bottom: 2px solid  white;
+    font-size: 35px;
+}
+.new-card{
+    /* background-color: red; */
+    padding: 20px 0px;
+}
+.new-card-img{
+    background-color: #191B1C;
+    padding: 20px 0px;
+}
+.new-card p{
+    padding: 10px 0px;
+}
+.brend{
+ 
+}
+.brend-cards{
+    background-color: #0F0F0F;
+    display: flex;
+    padding: 40px 0px;
+    padding-left: 300px;
+}
+.brend-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    background-color: #0F0F0F;
+    color: white;
+    padding-top: 80px;
+    border-bottom:2px solid white;
+}
+.brend-card-img{
+    /* text-align: center; */
+    width: 250px;
+    margin-left: 0px;
+    margin: 1px 2px;
+    padding: 0px opx;
+    display: flex; 
+    justify-content: center;
+}
